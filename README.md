@@ -294,7 +294,7 @@ $ sh scripts/test.sh
 최종 결과는 약 98.01%의 정확도로 리더보드 1위를 달성하였습니다.
 
 <div align="center">
-    <img src="assets/leaderboard2.png">
+    <img src="assets/leaderboard.png">
 </div>
 
 # License
