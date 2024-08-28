@@ -1,0 +1,20 @@
+accelerate==0.31.0
+datasets==2.20.0
+huggingface-hub==0.23.4
+matplotlib==3.9.2
+numpy==2.0.0
+pandas==2.2.2
+peft==0.11.1
+regex==2024.5.15
+scikit-learn==1.5.1
+tokenizers==0.19.1
+tqdm==4.66.4
+transformers==4.41.1
+trl==0.9.4
+wordcloud==1.9.3
+
+--extra-index-url https://pypi.org/simple/
+bitsandbytes==0.43.1
+
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.3.1
