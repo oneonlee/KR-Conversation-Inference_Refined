@@ -31,7 +31,7 @@ g.add_argument("--lora_target_modules", nargs='+', default=["q_proj", "v_proj"],
 g.add_argument("--neftune_noise_alpha", type=int, default=None, help="neftune_noise_alpha")
 g.add_argument("--train_dataset_path", type=str, default="resource/data/train.json", help="path of train_dataset")
 g.add_argument("--valid_dataset_path", type=str, default="resource/data/dev.json", help="path of valid_dataset")
-g.add_argument("--k_folds", type=int, default=5, help="number of K-folds for cross-validation")
+g.add_argument("--k_folds", type=int, default=0, help="number of K-folds for cross-validation")
 
 def main(args):
     if args.torch_dtype in ["bf16", "bfloat16"]:
