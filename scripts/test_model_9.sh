@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Model 8
-number=8
+# Model 9
+number=9
 model_path=beomi/Solar-Ko-Recovery-11B
 custom_dataset=CustomRefDataset
 
