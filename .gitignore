@@ -5,9 +5,12 @@ resource/data/train.json
 resource/data/train+dev.json
 resource/data/dev.json
 resource/data/test.json
-resource/results/*
-!resource/results/.gitkeep
+resource/results/predictions/*
 !resource/results/predictions/.gitkeep
+resource/results/Custom*
+resource/results/System*
+resource/results/Refined*
+!resource/results/.gitkeep
 logs/
 
 # Created by https://www.toptal.com/developers/gitignore/api/linux,python,visualstudiocode,dotenv,macos
