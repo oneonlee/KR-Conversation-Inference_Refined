@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Model 7
 number=7
 model_path=beomi/Solar-Ko-Recovery-11B

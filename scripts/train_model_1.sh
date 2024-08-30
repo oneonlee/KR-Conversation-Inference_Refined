@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Model 1
 number=1
 model_path=x2bee/POLAR-14B-v0.2

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Model 4
 number=4
 model_path=chihoonlee10/T3Q-ko-solar-dpo-v7.0
