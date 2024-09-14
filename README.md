@@ -5,8 +5,8 @@
 
 
 <div align="center">
-    <p>국립국어원 <a href="https://github.com/oneonlee/KR-Conversation-Inference/blob/main/assets/poster.jpg?raw=true" target="_blank">AI 말평</a> <b>대화 맥락 추론 (나 유형)</b> 리더보드 1위 모델 - '포항항' 팀</p>
     <img src="assets/logo.png" width="400">
+    <p>국립국어원 인공지능(AI)말평 - <a href="https://github.com/oneonlee/KR-Conversation-Inference/blob/main/assets/poster.jpg?raw=true" target="_blank">2024년 인공지능의 한국어 능력 평가 경진 대회</a> <b>🏆 금상(국립국어원장상) 수상</b></p>
 </div>
 <br>
 
@@ -14,8 +14,10 @@
 
 
 '대화 맥락 추론' 과제는 AI 모델이 주어진 대화 내용을 이해하고, 주어진 발화에 대한 5가지 추론 유형 (원인, 후행 사건, 전제 조건, 내적 동기, 감정 반응) 중 가장 적합한 것을 선택하는 능력을 평가합니다.
+<br>
+(**가** 유형은 외부 데이터를 사용하거나 데이터 증강이 불가능한 유형이고, **나** 유형은 외부 데이터를 사용하거나 데이터를 증강하여 사용 가능한 유형입니다.)
 
-**가** 유형은 외부 데이터를 사용하거나 데이터 증강이 불가능한 유형이고, **나** 유형은 외부 데이터를 사용하거나 데이터를 증강하여 사용 가능한 유형입니다. 본 리포지토리는 <ins>**나** 유형에 대한 리포지토리</ins>이며, **가** 유형에 대한 리포지토리는 [oneonlee/KR-Conversation-Inference](https://github.com/oneonlee/KR-Conversation-Inference)를 참고해주세요.
+상세한 내용은 [모델 기술서](asseets/report.pdf)에서 확인하실 수 있습니다.
 
 ---
 
@@ -49,6 +51,9 @@
 # Solution
 
 대화 맥락 추론 과제를 수행하기 위해, 다양한 방법으로 데이터셋을 구성하고, 사전학습된 LLM들을 미세조정하여, 앙상블을 통해 일반화하였습니다. 
+
+상세한 내용은 [모델 기술서](asseets/report.pdf)에서 확인하실 수 있습니다.
+
 
 ## 대화 맥락 추론 말뭉치 데이터셋
 
@@ -301,6 +306,7 @@ $ sh scripts/test.sh
 본 리포지토리는 [Apache License 2.0](LICENSE)을 따릅니다.
 
 # References
+- [국립국어원 인공지능(AI)말평 - **2024년 인공지능의 한국어 능력 평가 경진 대회**](https://kli.korean.go.kr/benchmark/taskBoardsOrdtm/boardsOrdtm/noticeView.do?page=0&recordId=134&boardOrdtmId=&base.condition=boardOrdtm.title&base.keyword=&size=10)
 - [국립국어원 인공지능(AI)말평 - **대화 맥락 추론(나 유형)** 과제](https://kli.korean.go.kr/benchmark/taskOrdtm/taskList.do?taskOrdtmId=145)
 - [GitHub - teddysum/Korean_CCI_2024](https://github.com/teddysum/Korean_CCI_2024)
 - [HuggingFace - beomi/Solar-Ko-Recovery-11B](https://huggingface.co/beomi/Solar-Ko-Recovery-11B)
